@@ -1,0 +1,16 @@
+const String logo = 'assets/images/logo.png';
+const String logoSvg = 'assets/images/logo.svg';
+const String cardLogoSvg = 'assets/images/card-logo.svg';
+const String logoWhite = 'assets/images/logo-white.svg';
+const String logoBlack = 'assets/images/logo-black.png';
+const String phone = 'assets/images/phone.png';
+const String emoji1 = 'assets/images/emoji1.svg';
+const String emoji2 = 'assets/images/emoji2.png';
+const String emoji3 = 'assets/images/emoji3.png';
+const String pButton = 'assets/images/p-button.svg';
+const String truck = 'assets/images/truck.png';
+// const String truckSvg = 'assets/images/truck.svg';
+const String mainTruck = 'assets/images/main-truck.png';
+const String bigTruck = 'assets/images/big-truck.png';
+const String apple = 'assets/images/apple.svg';
+const String google = 'assets/images/google.svg';
