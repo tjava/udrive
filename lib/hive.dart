@@ -1,5 +1,6 @@
 import 'dart:convert';
 
+import 'package:flutter/foundation.dart';
 import 'package:flutter_secure_storage/flutter_secure_storage.dart';
 import 'package:hive/hive.dart';
 import 'package:path_provider/path_provider.dart';
@@ -7,8 +8,12 @@ import 'package:udrive/core/constants/db_constant.dart';
 import 'package:udrive/core/hive_objects/user_hive_object.dart';
 
 Future<void> initHive() async {
-  final appDocumentDir = await getApplicationDocumentsDirectory();
-  Hive.init(appDocumentDir.path);
+  if (kIsWeb) {
+    Hive.init(null); // Web-specific initialization
+  } else {
+    final appDocumentDir = await getApplicationDocumentsDirectory();
+    Hive.init(appDocumentDir.path);
+  }
 
   Hive.registerAdapter(UserHiveObjectAdapter());
 

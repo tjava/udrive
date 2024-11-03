@@ -1,16 +1,9 @@
-# udrive
+# UDrive
 
-A new Flutter project.
+### Udrive: 🚛 The Ultimate Platform Connecting Truck Drivers with Mechanics. 🛠️ A robust, Flutter-based mobile app designed to seamlessly connect truck drivers with nearby mechanics in real-time. Built with clean architecture and industry standards, udrive ensures reliability, efficiency, and ease of use for drivers on the road. Get assistance when and where you need it!
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<p align="center">
+  <a href="">
+    <img alt="udrive" src="https://raw.githubusercontent.com/tjava/udrive/master/assets/images/onboard.png" width="1200">
+  </a>
+</p>
